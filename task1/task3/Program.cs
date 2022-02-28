@@ -6,17 +6,17 @@ namespace task3
     {
         static void Main(string[] args)
         {
-            int a = 50;
-            int b = 50;
+            int a = 600;
+            int b = 500;
             int cem = a + b;
 
-            if (a + b >= 100) 
-            {
-                Console.WriteLine("cem 3 reqemlidir");
-            }
-            else if (a + b <= 100)
+            if (cem > 9 && cem < 100 ) 
             {
                 Console.WriteLine("cem 2 reqemlidir");
+            }
+            else if (cem > 99 && cem < 1000 )
+            {
+                Console.WriteLine("cem 3 reqemlidir");
             }
             else
             {
