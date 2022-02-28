@@ -6,8 +6,8 @@ namespace task3
     {
         static void Main(string[] args)
         {
-            int a = 0;
-            int b = 0;
+            int a = 50;
+            int b = 50;
             int cem = a + b;
 
             if (a + b >= 100) 

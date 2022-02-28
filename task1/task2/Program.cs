@@ -7,14 +7,16 @@ namespace task2
 
         static void Main(string[] args)
         {
-            int a = 6;
+            int a = 7;
             int cavab = a % 3;
+            int cavab1 = a % 2;
 
-            if (a % 3 == 0)
+            if (cavab == 0 && cavab1 == 0 )
+               
             {
                 Console.WriteLine("3-e bolunur cutdur");
             }
-            else if (a % 3 == 0)
+            else if ( cavab == 0 && cavab1 != 0   )
             {
                 Console.WriteLine("3-e bolunur tekdir");
             }

@@ -6,7 +6,7 @@ namespace task4
     {
         static void Main(string[] args)
         {
-            int a = 0;
+            int a = 10;
 
             if ( a < 10)
             {
